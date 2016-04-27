@@ -18,7 +18,7 @@ import static org.hamcrest.core.Is.is;
 import static org.openqa.selenium.support.PageFactory.initElements;
 
 /**
- * Created by yinzhang on 4/13/16.
+ * Created by sallyzhang on 4/13/16.
  */
 
 
