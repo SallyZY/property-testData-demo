@@ -1,8 +1,8 @@
-package com.testdata.cpdirect.utils;
+package com.testdata.testsuite.utils;
 
-import com.testdata.cpdirect.cases.MyTest;
-import com.testdata.cpdirect.cases.Test_Home_Quote_And_Policy;
-import com.testdata.cpdirect.cases.Test_Motor_Quote_And_Policy;
+import com.testdata.testsuite.cases.MyTest;
+import com.testdata.testsuite.cases.Test_Home_Quote_And_Policy;
+import com.testdata.testsuite.cases.Test_Motor_Quote_And_Policy;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

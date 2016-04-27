@@ -1,4 +1,4 @@
-package com.testdata.cpdirect.cases;
+package com.testdata.testsuite.cases;
 
 import com.testdata.HomeTestDataSettings;
 import com.testdata.MotorTestDataSettings;
