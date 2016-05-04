@@ -1,7 +1,6 @@
 package com.testdata.testsuite.cases;
 
 import com.testdata.testsuite.cases.TestCase;
-import com.testdata.testsuite.utils.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -23,7 +22,6 @@ import static org.openqa.selenium.support.PageFactory.initElements;
 
 
 public class Test_Home_Quote_And_Policy extends TestCase {
-    WebDriver webDriver;
 
     @Test
     public void Test_Create_And_Save_HomeQuote() {
@@ -34,14 +32,11 @@ public class Test_Home_Quote_And_Policy extends TestCase {
 
     @Before
     public void setup() {
-        webDriver = WebDriverManager.getWebDriver();
-        WebDriverManager.getWebDriver().manage().deleteAllCookies();
+
     }
 
     @After
     public void teardown() {
-        webDriver.quit();
-        WebDriverManager.getWebDriver().quit();
-        WebDriverManager.deleteWebDriver();
+
     }
 }
