@@ -20,17 +20,4 @@ public class DemoApplicationTests {
 	public void contextLoads() {
 
 	}
-
-//	@Test
-//	public void should_be_able_get_read_properties_from_file() throws IOException {
-//      中文乱码
-//		InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("homeTestData.properties","UTF-8");
-//		Properties properties = new Properties();
-//		properties.load(inputStream);
-
-//		Properties properties=new Properties();
-//		properties.load(new InputStreamReader(this.getClass().getClassLoader().getResourceAsStream("homeTestData.properties"), "UTF-8"));
-//		assertThat(properties.getProperty("searchKey"), is("软件测试"));
-//	}
-
 }

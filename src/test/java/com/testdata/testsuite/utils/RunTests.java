@@ -11,10 +11,9 @@ import org.junit.runners.Suite;
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-        MyTest.class,
-        Test_Home_Quote_And_Policy.class,
-        Test_Motor_Quote_And_Policy.class
+//        MyTest.class,
+        Test_Home_Quote_And_Policy.class
+//        Test_Motor_Quote_And_Policy.class
 })
-
 public class RunTests {
 }

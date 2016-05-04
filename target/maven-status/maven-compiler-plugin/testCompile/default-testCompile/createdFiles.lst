@@ -1,0 +1,8 @@
+com/testdata/testsuite/cases/Test_Motor_Quote_And_Policy.class
+com/testdata/DemoApplicationTests.class
+com/testdata/testsuite/cases/TestCase.class
+com/testdata/testsuite/utils/RunTests.class
+com/testdata/testsuite/utils/WebDriverManager.class
+com/testdata/testsuite/cases/Test_Home_Quote_And_Policy.class
+com/testdata/testsuite/utils/CommFunctions.class
+com/testdata/testsuite/cases/MyTest.class
