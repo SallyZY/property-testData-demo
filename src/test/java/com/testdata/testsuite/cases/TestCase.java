@@ -14,7 +14,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 
 @Configuration
-//@PropertySource("classpath:homeTestData.properties")
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(PropertyTestDataDemo.class)
 public class TestCase {
